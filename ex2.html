@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAGE WEB WOOOOH</title>
+</head>
+<body>
+<label for="lien">Lien et images</label><input type="checkbox" id="lien" name="menu" value="#z1"><label for="elem">Des
+    éléments!</label><input type="checkbox" id="elem" name="menu" value="#z2"><label for="²">Barre de
+    progression</label><input type="checkbox" id="progress" name="menu" value="#z3"><br>
+<div id="z1">
+    <h1>
+        Lien et images
+    </h1>
+    <a href="" target="_blank" id="wikipedia">La page principale de Wikipedia</a> <br><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+         alt="google" width="300">
+</div>
+<hr>
+<div id="z2">
+    <h1>
+        Des éléments!
+    </h1>
+    <input type="text" value="Premiers pas en javascript" id="etiquette"><br><br>
+    <input type="radio" id="ch1" name="choix" value="1"><label for="ch1">Choix N°1</label><input type="radio" id="ch2"
+                                                                                                 name="choix"
+                                                                                                 value="2"><label
+        for="ch2">Choix
+    N°2</label><input type="radio" id="ch3" name="choix" value="3"><label for="ch3">Choix N°3</label>
+    <br><br>
+    <input type="password" value="abcdefgh"><br><br>
+    <input type="range" min="1" max="100" value="50" id="vol"><label for="vol">Volume</label>
+    <p style="margin:0">0</p>
+    <label for="ouinon">Case à cocher: </label>
+    <input type="checkbox" id="ouinon">
+    <br> <br>
+    <label for="date">Date :</label><input type="date" id="date">
+    <br>
+    <br>
+    <button id="verif">Ok</button>
+</div>
+<hr>
+<div id="z3">
+    <h1>Barre de progression</h1>
+    <label for="pr">
+        Téléchargement en cours :</label>
+    <progress value="50" max="100" id="pr"></progress>
+    <br> <br>
+    <label for="me">
+        Espace disque restant : </label>
+    <meter value="50" max="100" id="me"></meter>
+</div>
+<script src="ex2.js"></script>
+</body>
+</html>
