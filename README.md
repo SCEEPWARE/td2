@@ -12,3 +12,7 @@ Script javascript utilisé par ex1v2.html
 Second exercice, une page web avec trois sections "Lien et images", "Des éléments" et "Barre de progression"
 #### ex2.js
 Script javascript utilisé par ex2.html. Implémente toutes les fonctionnalités demandées dans le sujet de TD.
+
+\
+\
+*Remarque: ce repo sera supprimé à la fin du semestre*
